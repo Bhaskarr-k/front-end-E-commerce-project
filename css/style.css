@@ -1,18 +1,33 @@
 
+header{
+    display: flex;
+    background-color: whitesmoke;
 
+}
+.first{
+    margin-left: 50px;
+    font-weight: bolder;
+    color: black;
+}
+.second{
+    margin-left: 350px;
 
-.btn-div{
-    
-    width: 260px;
+}
+.thrid{
+    margin-left: 550px;
    
 }
-.home-div{
-    text-align: center;
-    align-content: center;
+#Ln{
+    border: 1.5px solid black;
+
+}
+#Res{
+    border: 1.5px solid black;
+}
+#Ca {
+    border: 1.5px solid black;
 }
 
-
-.div-c{
-    margin-left: 200px;
-
+a{
+    text-decoration: none;
 }
