@@ -5,23 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
-        <div>
-            <a href="index.html" class="first">Ecommerce</a>
+    <header class="head">
+        <div class="first">
+            <a href="index.html" class="Ecs">Ecommerce</a>
         </div>
-        <nav>
+        <nav class="second">
             <a href="index.html">Home</a>
             <a href="products.html">product</a>
             <a href="contact.html">Contact Us</a>
             <a href="about.html">About</a>
         </nav>
-        <div>
-            <a href="login.html"><i class="fa-solid fa-right-to-bracket"></i>Login</a>
-            <a href="Register.html"><i class="fa-solid fa-user"></i>Register</a>
-            <a href="cart.html">Cart(0)</a>
+        <div class="btn">
+            <button class="loginbtn">
+                <i class="fa-solid fa-right-to-bracket"></i>
+                <a href="#" class="logintag">Login</a>
+            </button>
+            <button class="loginbtn">
+                <i class="fa-solid fa-user"></i>
+                <a href="#" class="logintag">Register</a>
+            </button>
+            <button class="loginbtn">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <a href="#" class="logintag">Cart(0)</a>
+            </button>
         </div>
+
     </header>
+    <div class="contact-heading">
+        <h1>Contact Us</h1>
+        <hr>
+    </div>
+    <form>
+    <div class="contact-page">
+        <label for = "name">Name</label><br>
+        <input name="text" placeholder="Enter your name"><br>
+        <label for="Email">Email</label><br>
+        <input type="text" placeholder="name@gmail.com"><br>
+        <label for="message">Message</label><br>
+        <input type="text" placeholder="Enter your message"><br>
+        
+    </div>
+    <div class="contact-submit">
+        <button class="send">Send</button>
+    </div>
+    <div class="submit-lost">
+        <a href="">Made With &#10084 by AchieversIT</a>
+    </div>
+    </form>
 </body>
 </html>

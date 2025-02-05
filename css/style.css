@@ -267,4 +267,72 @@
     align-content: center;
 }
 
+/* About page */
+.heading{
+    text-align: center;
+    align-content: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.about-para{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 20px;
+}
+.heading-two{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.about-page-images{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 20px;
+}
+.about-images{
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+/* Contact page */
+.contact-page>input{
+     border-radius: 5px; 
 
+}
+.contact-page{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-family: Arial;
+    margin-top: 50px; 
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.contact-heading{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.contact-submit{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 300px;
+    
+}
+.send{
+    background-color: black;
+    color: white;
+}
+.submit-lost{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
