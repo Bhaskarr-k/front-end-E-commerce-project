@@ -331,41 +331,39 @@
 }
 
 /* Contact page */
-.contact-page>input{
-     border-radius: 5px; 
+.contact-heading{
+    text-align:  center;
+    margin-bottom: 20px;
+    margin-top: 20px;
 
 }
-.contact-page{
-    display: grid;
+.class-div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
-    align-items: center;
-    height: 50px;
-    font-family: Arial;
-    margin-top: 50px; 
-    font-size: 25px;
-    margin-bottom: 10px;
-}
-.contact-heading{
-    align-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-.contact-submit{
-    align-items: center;
-    align-content: center;
-    text-align: center;
-    margin-top: 300px;
+    
     
 }
-.send{
+.form-inside-div{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.contact-send{
+    text-align: center;
+    margin-top: 40px;
+    
+}
+.button-send{
     background-color: black;
     color: white;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
 }
-.submit-lost{
-    text-align: center;
-    align-content: center;
-    align-items: center;
-    margin-top: 50px;
+.form-label{
+    border-radius: 10px;
 }
