@@ -277,7 +277,8 @@
 .about-para{
     margin-left: 30px;
     margin-right: 30px;
-    font-size: 20px;
+    font-size: 23px;
+    row-gap: 10px;
 }
 .heading-two{
     text-align: center;
@@ -288,15 +289,47 @@
 }
 .about-page-images{
     display: flex;
-    justify-content: space-between;
-    gap: 40px;
-    padding: 20px;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-content: center;
+
+
 }
-.about-images{
-    height: 100px;
-    margin-left: 20px;
-    margin-right: 20px; 
+.images{
+    height: 80%;
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+
 }
+.about-page-img{
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px gray;
+}
+.about-heading{
+    text-align: center;
+    margin: 35px;
+}
+.image-caption{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lost-para{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+
+}
+.color-change{
+    color: red;
+}
+.about-page-concluse{
+    margin-top: 30px;
+}
+
 /* Contact page */
 .contact-page>input{
      border-radius: 5px; 
